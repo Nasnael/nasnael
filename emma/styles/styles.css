@@ -87,12 +87,17 @@ nav  ol  li
 
     #emma {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 25%;
-    color: rgba(247, 0, 0, 0.671);
+    color:white;
     font-size: 3em;
-    background: #00000093;
+    
     
     padding: 20px;
 
+    }
+
+    .fa-whatsapp  {
+        color: black;
+        background: #13cc66;
     }
