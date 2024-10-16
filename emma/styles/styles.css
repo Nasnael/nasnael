@@ -6,27 +6,55 @@
 
 }
 
-:root{
-    --color: #333;
+
+
+.social-icons{
+    background-color: aqua;
+    width: 30%;
+    height: 10%;
+
+}
+footer{
+    /* display: flex; */
+    height: 10rem;
+    background-color:#9ef11dc2;
+    padding: 20px;
+
+}
+.continer{
+    background-color: antiquewhite;
+    display: flex;
+
+}
+h1{
+    font-size: large;
+    text-decoration: underline;
+
+    
+}
+ul{
+    list-style-type: none;
 }
 
 
+
 header{
-    background:  var(--color);
-    padding: 20;
+    background:  #9ef11dc2;
+    padding: 20px;
+
   
 }
 
 .logo{
-    background: #963333;
+    background: whitesmoke;
     padding: 10px  0px;
     text-align: center;
     margin-bottom: 20px;
 
 }
 
-nav  {
-    background: #a39f20;
+header nav  {
+    background:aliceblue;
    
     padding: 10px  0px;
 
@@ -37,12 +65,15 @@ nav  {
 nav  ol 
 {
     display: flex;
+    list-style-type: none;
    
 }
 
 nav  ol  li 
 {
-    list-style-type: none;
+    /* list-style-type: none; */
+    /* background-color: white; */
+    
 }
 
 .image-holder {
