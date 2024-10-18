@@ -1,62 +1,30 @@
 
 *{
-    padding: 0;
+
     margin: 0  auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    width: 100%;  
+    box-sizing: border-box;
+    text-decoration: none; 
 }
-
-
-
-.social-icons{
-    background-color: aqua;
-    width: 30%;
-    height: 10%;
-
-}
-footer{
-    /* display: flex; */
-    height: 10rem;
-    background-color:#9ef11dc2;
-    padding: 20px;
-
-}
-.continer{
-    background-color: antiquewhite;
-    display: flex;
-
-}
-h1{
-    font-size: large;
-    text-decoration: underline;
-
-    
-}
-ul{
-    list-style-type: none;
-}
-
-
 
 header{
-    background:  #9ef11dc2;
-    padding: 20px;
-
-  
+    background: white;
+    padding: 10px;
+    margin-top: 0;
 }
 
 .logo{
-    background: whitesmoke;
-    padding: 10px  0px;
+    background: rgb(245, 239, 239);
+    /* padding: 10px  0px; */
     text-align: center;
     margin-bottom: 20px;
 
 }
-
 header nav  {
-    background:aliceblue;
+    /* background:rgb(5, 5, 5); */
    
-    padding: 10px  0px;
+    padding: 10px  10px;
 
  
   
@@ -66,38 +34,65 @@ nav  ol
 {
     display: flex;
     list-style-type: none;
-   
-}
+    background-color:white;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-around;  
 
-nav  ol  li 
-{
-    /* list-style-type: none; */
-    /* background-color: white; */
-    
 }
-
+a{
+    color: black;
+    font-size: 20px;
+}
 .image-holder {
     position: relative;
-    }
-
-   .image-holder  {
 
     width: 100%; 
 }
-
+#img{
+    padding: 30px;
+    border-radius: 4rem;
+}
     #emma {
     position: absolute;
     top: 50%;
     left: 25%;
     color:white;
     font-size: 3em;
-    
-    
-    padding: 20px;
+  padding: 20px;
 
     }
 
-    .fa-whatsapp  {
-        color: black;
-        background: #13cc66;
+ footer{
+        /* display: flex; */
+        height: 10rem;
+        background-color:#072146;
+        padding: 20px;
+    
     }
+    .continer{
+        
+        display: flex;
+        
+    }
+nav ul{
+    background-color:none;
+    list-style-type: none;
+
+} 
+    
+nav ul li{
+    color: antiquewhite;
+}
+    h1{
+        font-size: 20px;
+        color: bisque;
+        font-style:italic;
+    }
+    
+        
+    
+    
+    
+    
+    
