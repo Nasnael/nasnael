@@ -1,60 +1,55 @@
 
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;  
-    box-sizing: border-box;
+    
+    /* box-sizing: border-box; */
     text-decoration: none; 
-    margin: 0;
+    margin: 0,0,0,0;
+ 
 
 }
 
 header{
-    background: rgb(236, 132, 132);
-    padding: 10px;
+    /* background:rgb(207, 24, 24); */
+    /* padding: 10px; */
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-
+    position: sticky;
+  
 }
+#number{
 
-.logo {
-    width: 15%;
-    /* height: 100px; */
-    /* border-radius: 50%; */
-    background-color:rgb(80, 77, 77); 
-    padding: 12px 24px;
-}
-#no{
-    background-color: yellowgreen;
     padding: 10px;
-    border-radius: 4rem;
-    width: 30%;
+    border-radius: 25px;
+    /* border: 2px solid grey; */
+    /* display: block; */
+   color:white;
+   background-color:yellowgreen;
 
-}
 
-  ol {
+    }
 
+
+ .nav {
+    /* background-color: antiquewhite; */
+    width: 100%;
     display: flex;
     list-style-type: none;
-    background-color:white;
-    padding: 20px;
-    /* margin: auto; */
-    justify-content: space-around; 
-    width: 100%; 
+    padding: 10px;
+    margin: 10PX;
+    justify-content: right;
+    gap: 10rem;
+    align-items: center;
+    font-size: larger;
 
 }
 a{
     color: black;
     font-size: 20px;
 }
-.image-holder {
-    position: relative;
-
-    width: 100%; 
-}
 #img{
-    padding: 30px;
-    border-radius: 4rem;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    /* border-radius: 4rem; */
 }
     #emma {
     position: absolute;
@@ -78,8 +73,8 @@ a{
 
     .pform{
 
-        width: 20rem;
-        height: 25rem;
+        /* width: 20rem;
+        height: 25rem; */
     
         border: 2px solid black;
         border-radius: 2rem;
@@ -88,7 +83,12 @@ a{
         cursor: pointer;
         background-color:whitesmoke ;
         display: grid;
+        flex: 1;
+        grid-template-columns: repeat(3,1fr);
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        text-wrap: wrap;
+
 
 
     }
@@ -101,37 +101,28 @@ a{
     
 
  footer{
-        /* display: flex; */
-        height: 25rem;
+    
         background-color:#072146;
-        /* padding: 20px; */
-        margin-top:40px ;
-    
-    }
-    .continer{
-        
-        display: flex;
-    
-        
-        
-        
-    }
-nav ul{
-    background-color:none;
-    list-style-type: none;
+        padding: 20px;
+            margin-top:40px ;}
 
-} 
+            .continer{
+                display: flex;
+                justify-content: space-around;
+          
+       
+              
+            }
     
-nav ul li{
-    color: antiquewhite;
-    padding: 1rem;
-}
     h1{
         font-size: 20px;
         color: yellowgreen;
-        font-style:italic;
-
-       
+        font-style:italic; 
+    }
+    li{
+        color: white;
+        list-style-type: none;
+        padding: 10px;
     }
     hr {
         width: 80%; 
@@ -143,17 +134,29 @@ nav ul li{
         
 /* contact us page styles starts here     */
 
+.contacts{
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .form-container {
     width: 50%;
     /* max-width: 400px; */
     margin-left: 20px;
     padding: 20px;
-    background: rgb(230, 190, 190);
+    background: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     justify-content: flex-start;
     
+}
+.left{
+    background-color:whitesmoke;
+    width: 50%;
+    /* margin: 20px; */
 }
 
 h2 {
