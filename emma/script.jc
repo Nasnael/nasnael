@@ -1,0 +1,4 @@
+
+    const name = document.getElementById('name');
+    const error = document.getElementById('error');
+    const submitButton = document.getElementById('submitBtn');

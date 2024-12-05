@@ -51,49 +51,63 @@ a{
     margin-bottom: 30px;
     /* border-radius: 4rem; */
 }
-    #emma {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    color:white;
-    font-size: 3em;
-  padding: 20px;
-
-    }
-    .images{
+    .cards{
         display: flex;
         margin-bottom: 4rem;
         /* margin-right: 4rem; */
         margin-top: 2rem;
         /* margin-left: 4rem; */
         /* background-color: grey; */
+        flex-wrap: wrap;
         
 
     }
+    .welcome{
+        background-color: #fefcf4;
+        color: yellowgreen;
+    font-size: 3em;
+  padding: 20px;
 
-    .pform{
+        
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px; 
+    }
+
+    .card{
 
         /* width: 20rem;
         height: 25rem; */
     
-        border: 2px solid black;
+        border: 1px solid rgb(163, 161, 161);
         border-radius: 2rem;
         margin: auto;
         box-shadow: 2rex;
         cursor: pointer;
         background-color:whitesmoke ;
-        display: grid;
+        /* display: grid; */
         flex: 1;
         grid-template-columns: repeat(3,1fr);
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         align-items: center;
-        text-wrap: wrap;
-
-
-
+        width: 30%;
+        margin: 10px;
+    
     }
-.pform:hover{background-color: #072146;
 
+    .card img{
+        width: 30%;
+        background-color:hide;
+    }
+.card:hover{background-color: #072146;
+    color: white;
+
+}
+images/Bose-base-Speaker-500.jpg{
+    size:20px ;
 }
 
 
@@ -131,7 +145,7 @@ a{
         color:  white;
         text-align: center;
     }
-      .social{
+      .social {
         color: white;
       }  
 /* contact us page styles starts here     */
@@ -157,6 +171,7 @@ font-size: 40px;
 .contacts{
 /* padding: 20px; */
     display: flex;
+  
    
     /* margin-top: 20px; */
 }
@@ -188,7 +203,7 @@ textarea{
     border-radius: 2rem;
 }
 
-h2 {
+h2,h3 {
     text-align: center;
 }
 
@@ -222,7 +237,51 @@ button:hover {
     background-color: #072146;
 }
 
+.about{
     
+    background-color: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%)   ;
+}    
     
+  
+    /* services page */
+
+    .cservice{
+        display: flex;
+        /* border-bottom:1px solid #072146; */
+    }
+
+    .actions{
+        /* background-color: #fa709a; */
+        align-content: center;
+    }
+
+
+#action{
+    font-size: 40px;
     
-    
+   
+    /* background-color: #fee140; */
+}
+
+span{
+    color:  yellowgreen;
+    font-size: 50px;
+   
+}
+#action1{
+    font-size: 50px;
+    text-align: left;
+   
+    /* background-color: #fee140; */
+}
+.ourservices{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.service1{
+    flex: 1;
+    border: 1px solid green;
+    width: 30%;
+}
